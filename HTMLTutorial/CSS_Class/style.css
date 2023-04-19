@@ -1,0 +1,26 @@
+
+     /* Tag Based selector */
+        h5{
+            color: black;
+            text-decoration: underline;
+            text-shadow: 0cap;
+        }
+        p{
+            background-color: blanchedalmond; font-size: x-large;
+        }
+        article{
+            background-color: red;
+        }
+
+        /* class -base seletor */
+        .overline-style{
+            text-decoration: underline;
+            color: rebeccapurple;
+        }
+        /* ID base selector */
+        #inline-color{
+            color: blue;
+            background-color: red;
+            font-size: large;
+        }
+    

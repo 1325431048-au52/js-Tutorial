@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "shopping website server ",
+  "main": "callbackfuction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/attainu/1325431048-au52.git"
+  },
+  "bugs": {
+    "url": "https://github.com/attainu/1325431048-au52/issues"
+  },
+  "homepage": "https://github.com/attainu/1325431048-au52#readme",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}

@@ -1,0 +1,28 @@
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .gallery {
+      max-width: 600px;
+    }
+  }
+  

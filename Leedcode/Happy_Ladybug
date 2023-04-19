@@ -1,0 +1,40 @@
+4
+7
+RBY_YBR
+6
+X_Y__X
+2
+__
+6
+B_RRBR
+
+function happyLadybugs(b) {
+    let emptySpaces = 0;
+    let counts = {};
+    for (let i = 0; i < b.length; i++) {
+        if (b[i] === '_') {
+            emptySpaces++;
+        } else {
+            if (!counts[b[i]]) {
+                counts[b[i]] = 0;
+            }
+            counts[b[i]]++;
+        }
+    }
+
+    if (emptySpaces === 0) {
+        for (let i = 1; i < b.length - 1; i++) {
+            if (b[i] !== b[i-1] && b[i] !== b[i+1]) {
+                return "NO";
+            }
+        }
+        return "YES";
+    } else {
+        for (let color in counts) {
+            if (counts[color] === 1) {
+                return "NO";
+            }
+        }
+        return "YES";
+    }
+}
